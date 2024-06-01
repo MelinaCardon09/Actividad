@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JARBOSS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+
+                <div class="container-navbar">
+                    <nav class="navbar container">
+                        <i class="fa-solid fa-bars"></i>
+                        <ul class="menu">
+                            <li><a href="#">Jarboss Software</a></li>
+                            <li><a href="#">Jarboss App</a></li>
+                            <li><a href="#">Jarboss Work</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="content-blog">
+        <h3>Sobre Nosotros</h3>
+        <p>
+            Jarboss es una empresa mexicana de Tecnologías de la Información que se especializa en ofrecer soluciones innovadoras y productivas en Desarrollo de software a la medida, Soluciones SaaS, Consultoría en tecnología e Integración de otras aplicaciones operativas, siempre enfocados a los procesos de las organizaciones, apoyando a nuestros clientes con servicios más atractivos para el usuario final, con el deseo de establecer relaciones de largo plazo, generando confianza y valor en las empresas.
+        </p>
+    </div>
+
+    <button onclick="mostrarNuevoContenido()">Iniciar Ahora</button>
+    
+    <p id="nuevoContenido" style="display:none;">Jarboss Software: Desarrolla proyectos de Software llave en mano, para aplicaciones, sistemas e integraciones en plataformas web y móvil (iOS y Android) para cualquier área de tu organización.
+    
+        Jarboss App: Organiza y colabora sin importar dónde te encuentres con el poder del Social Network en un ambiente administrado y seguro desde plataforma web y móvil.
+        
+Jarboss Work: Digitaliza y audita procesos por medio de checklists de forma estandarizada y reduce tiempos con la generación de reportes ejecutivos automáticos desde cualquier dispositivo móvil con sistema operativo iOS y Android</p>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>Río Colorado 480, Del Valle, 66220 San Pedro Garza García, N.L.</li>
+                        <li>Teléfono: 123-456-7890</li>
+                        <li>EmaiL: jarboss.software@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function mostrarNuevoContenido() {
+            var nuevoContenido = document.getElementById("nuevoContenido");
+            nuevoContenido.style.display = "block"; // Mostrar el nuevo contenido
+        }
+    </script>
+</body>
+</html>
